@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3496E0926EE8B557879A78BF6E86CBD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F72B7883B8CB92A1A839D4D3051D5 /* Foundation.framework */; };
+		44EC44EF0E930B872DAE482A3E1A5276 /* XHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB36E02E395FE8B7732EA21D0CDED20 /* XHToast.m */; };
+		56A2D2ABAC02AE9E689B16B9640AD8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F72B7883B8CB92A1A839D4D3051D5 /* Foundation.framework */; };
+		5E7763DC1444BF1601AB39923BF8F11B /* TRUNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 993E24A3465A703D38C2689068117EBA /* TRUNetwork-dummy.m */; };
+		79115674B1E7383819DA53A8FD708918 /* Pods-LHFRequestDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0A81FFBADFF831C5E59F7C6DAADBA6 /* Pods-LHFRequestDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FFBFD036A3BEDD7B7973DD9E3BFC79D /* TRULogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 800E194209D25F3E54073BF9E874E45E /* TRULogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5C10641AD12C80EF00A04ACADF62D2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F72B7883B8CB92A1A839D4D3051D5 /* Foundation.framework */; };
+		AF6C1CD9ED5ECBF271826FCAC2E4C781 /* Pods-LHFRequestDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 546CD58582C175FB5F02F08AAE96D0F9 /* Pods-LHFRequestDemo-dummy.m */; };
+		BA8130C389A07D6639C91A79C0A5AEC0 /* XHToast.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9ADBCB06254E7687DB3C42A753BAF3 /* XHToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDC51B939F095DD5DEE95498D482E6AF /* TRUNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B11DEABF1986ABDA8EE56FA18885D1 /* TRUNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E36E005EAE48073F6EE42F245D21E153 /* TRULogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D279DD2CCBE4F5CFA3850D044CA24FE9 /* TRULogin-dummy.m */; };
+		EC5A9B8608F22FC6099987501FA50101 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1363B28432AFA14068DF4FB025643 /* ReplaceMe.m */; };
+		FE78D57032AE3690EDEBFF822AEC8E9F /* TRUNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AD1C2D61E739D125A5DA16ECE81F9D /* TRUNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3039FC1343FEA5A4AE7E1BD2F6E9A822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5986E9994E007CB5C37706D381A5C54;
+			remoteInfo = TRUNetwork;
+		};
+		3F5DDCAF8498D0104A197DC5F03A696C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5986E9994E007CB5C37706D381A5C54;
+			remoteInfo = TRUNetwork;
+		};
+		9EECFFF7C74AA325621900FA8E73F5B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035306FEC43347883CAB1AA795AA326D;
+			remoteInfo = TRULogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021051EF030A60FB8C1A7D5EC16F4D4F /* TRUNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		0D42ADB0F7D0DB99E33E3EB9EDFB50BF /* Pods-LHFRequestDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LHFRequestDemo.modulemap"; sourceTree = "<group>"; };
+		10FAC67AD2B66A33C9F301153CF5A603 /* TRUNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRUNetwork.modulemap; sourceTree = "<group>"; };
+		19461D5FCE6372948ED2D5C9226E34FB /* TRUNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUNetwork-prefix.pch"; sourceTree = "<group>"; };
+		220CB99162E93ABEF44EA58FFCE4D4C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		27C1363B28432AFA14068DF4FB025643 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TRULogin/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		30AFBDC12878AE15ADE010D59E90B401 /* TRULogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRULogin.modulemap; sourceTree = "<group>"; };
+		321355A3886A8DD796386D5B7A299DB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		329F55B75310A49DC9A80F46D0C5F5A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3495F8B6F1E748FCE795EF63FDD79D20 /* TRULogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TRULogin-Info.plist"; sourceTree = "<group>"; };
+		446376711F0065EB9AB9FB72005BD5CA /* Pods-LHFRequestDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHFRequestDemo-Info.plist"; sourceTree = "<group>"; };
+		4A0F72F762BE5AD0A4C7C9CBD49ACAD0 /* Pods-LHFRequestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHFRequestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4D074D727A9833008ECE3070E825CACD /* TRUNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TRUNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4DAEF7A76586B8CEB8AAEC3A45A4BDF7 /* TRUNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUNetwork.release.xcconfig; sourceTree = "<group>"; };
+		546CD58582C175FB5F02F08AAE96D0F9 /* Pods-LHFRequestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHFRequestDemo-dummy.m"; sourceTree = "<group>"; };
+		55ECDFD01456575DBEC837D89E0891D6 /* TRULogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TRULogin.framework; path = TRULogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F512F4A7CEC3432B06EEA2B354430AD /* TRUNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TRUNetwork.framework; path = TRUNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		658D99ED654910BCCE89F67AEC46C3AA /* Pods-LHFRequestDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHFRequestDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		66478B10E6C1A8CB9F154F958E690C82 /* Pods-LHFRequestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHFRequestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		66B11DEABF1986ABDA8EE56FA18885D1 /* TRUNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUNetwork-umbrella.h"; sourceTree = "<group>"; };
+		6FDAD753AF176CEDE573A8EFB979128D /* TRULogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRULogin-prefix.pch"; sourceTree = "<group>"; };
+		7B7658067433EADE8C4449596525229D /* TRULogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRULogin.release.xcconfig; sourceTree = "<group>"; };
+		7F44AFBB4A259347DB4A3BFD3FC3314B /* Pods-LHFRequestDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LHFRequestDemo-frameworks.sh"; sourceTree = "<group>"; };
+		800E194209D25F3E54073BF9E874E45E /* TRULogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRULogin-umbrella.h"; sourceTree = "<group>"; };
+		993E24A3465A703D38C2689068117EBA /* TRUNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUNetwork-dummy.m"; sourceTree = "<group>"; };
+		9BB36E02E395FE8B7732EA21D0CDED20 /* XHToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHToast.m; path = TRUNetwork/Classes/XHToast.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7AD1C2D61E739D125A5DA16ECE81F9D /* TRUNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRUNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0A81FFBADFF831C5E59F7C6DAADBA6 /* Pods-LHFRequestDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHFRequestDemo-umbrella.h"; sourceTree = "<group>"; };
+		C1A1912A522E70CDEBEAF889C78AEA31 /* TRULogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TRULogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C25ACE1EF30D72D2B5393E2374C82B3D /* Pods_LHFRequestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LHFRequestDemo.framework; path = "Pods-LHFRequestDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39F72B7883B8CB92A1A839D4D3051D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D279DD2CCBE4F5CFA3850D044CA24FE9 /* TRULogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRULogin-dummy.m"; sourceTree = "<group>"; };
+		D8763BE2513334F2120D3D51859EA86C /* TRULogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRULogin.debug.xcconfig; sourceTree = "<group>"; };
+		DB18F2599F96A0B5A2FA4B23E6AF3823 /* TRUNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TRUNetwork-Info.plist"; sourceTree = "<group>"; };
+		E77B8C1274AC9450533F2AF156C55B2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EC9ADBCB06254E7687DB3C42A753BAF3 /* XHToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHToast.h; path = TRUNetwork/Classes/XHToast.h; sourceTree = "<group>"; };
+		EF5D75BE87BE02AC92199D699E7C9E2D /* Pods-LHFRequestDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHFRequestDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469C9E8F0B6EFBC7B7A600BF0C5F7A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C10641AD12C80EF00A04ACADF62D2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FFF6959B4243CC4E3832BE0419C369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3496E0926EE8B557879A78BF6E86CBD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA053493E6E5583754DEBDB720A3CEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A2D2ABAC02AE9E689B16B9640AD8EA /* Foundation.framework in Frameworks */,
+				FE78D57032AE3690EDEBFF822AEC8E9F /* TRUNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7ABF32A8CF9A466F4E367DA83AE1E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C39F72B7883B8CB92A1A839D4D3051D5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1BE834CFB07D44910889951CC074C609 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30AFBDC12878AE15ADE010D59E90B401 /* TRULogin.modulemap */,
+				D279DD2CCBE4F5CFA3850D044CA24FE9 /* TRULogin-dummy.m */,
+				3495F8B6F1E748FCE795EF63FDD79D20 /* TRULogin-Info.plist */,
+				6FDAD753AF176CEDE573A8EFB979128D /* TRULogin-prefix.pch */,
+				800E194209D25F3E54073BF9E874E45E /* TRULogin-umbrella.h */,
+				D8763BE2513334F2120D3D51859EA86C /* TRULogin.debug.xcconfig */,
+				7B7658067433EADE8C4449596525229D /* TRULogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/TRULogin";
+			sourceTree = "<group>";
+		};
+		1C7D14A929922B07F8B3FFB7F5A7C945 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				220CB99162E93ABEF44EA58FFCE4D4C3 /* LICENSE */,
+				321355A3886A8DD796386D5B7A299DB2 /* README.md */,
+				C1A1912A522E70CDEBEAF889C78AEA31 /* TRULogin.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		65AD2A4D0747F2A0D5A4C29BFBFB4299 /* TRULogin */ = {
+			isa = PBXGroup;
+			children = (
+				27C1363B28432AFA14068DF4FB025643 /* ReplaceMe.m */,
+				1C7D14A929922B07F8B3FFB7F5A7C945 /* Pod */,
+				1BE834CFB07D44910889951CC074C609 /* Support Files */,
+			);
+			name = TRULogin;
+			path = ../Lib/TRULogin;
+			sourceTree = "<group>";
+		};
+		76B61060F1C90AC78D0AB08FB5EC9441 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10FAC67AD2B66A33C9F301153CF5A603 /* TRUNetwork.modulemap */,
+				993E24A3465A703D38C2689068117EBA /* TRUNetwork-dummy.m */,
+				DB18F2599F96A0B5A2FA4B23E6AF3823 /* TRUNetwork-Info.plist */,
+				19461D5FCE6372948ED2D5C9226E34FB /* TRUNetwork-prefix.pch */,
+				66B11DEABF1986ABDA8EE56FA18885D1 /* TRUNetwork-umbrella.h */,
+				021051EF030A60FB8C1A7D5EC16F4D4F /* TRUNetwork.debug.xcconfig */,
+				4DAEF7A76586B8CEB8AAEC3A45A4BDF7 /* TRUNetwork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/TRUNetwork";
+			sourceTree = "<group>";
+		};
+		78032B817CC495E9250AE48B43FDBCAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25ACE1EF30D72D2B5393E2374C82B3D /* Pods_LHFRequestDemo.framework */,
+				55ECDFD01456575DBEC837D89E0891D6 /* TRULogin.framework */,
+				5F512F4A7CEC3432B06EEA2B354430AD /* TRUNetwork.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B7B7D2978F4D7FAF8B642655BBF6367 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D819821F3E8E1782FCCC770F67966E8D /* Pods-LHFRequestDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A011826816B500E181F900A6821114E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65AD2A4D0747F2A0D5A4C29BFBFB4299 /* TRULogin */,
+				ED9B2F88AD483553A4B0C23EADE15BFE /* TRUNetwork */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A011826816B500E181F900A6821114E6 /* Development Pods */,
+				FFE9E63B29F1C19206838CA0BB9429DC /* Frameworks */,
+				78032B817CC495E9250AE48B43FDBCAC /* Products */,
+				9B7B7D2978F4D7FAF8B642655BBF6367 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D819821F3E8E1782FCCC770F67966E8D /* Pods-LHFRequestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0D42ADB0F7D0DB99E33E3EB9EDFB50BF /* Pods-LHFRequestDemo.modulemap */,
+				EF5D75BE87BE02AC92199D699E7C9E2D /* Pods-LHFRequestDemo-acknowledgements.markdown */,
+				658D99ED654910BCCE89F67AEC46C3AA /* Pods-LHFRequestDemo-acknowledgements.plist */,
+				546CD58582C175FB5F02F08AAE96D0F9 /* Pods-LHFRequestDemo-dummy.m */,
+				7F44AFBB4A259347DB4A3BFD3FC3314B /* Pods-LHFRequestDemo-frameworks.sh */,
+				446376711F0065EB9AB9FB72005BD5CA /* Pods-LHFRequestDemo-Info.plist */,
+				AA0A81FFBADFF831C5E59F7C6DAADBA6 /* Pods-LHFRequestDemo-umbrella.h */,
+				66478B10E6C1A8CB9F154F958E690C82 /* Pods-LHFRequestDemo.debug.xcconfig */,
+				4A0F72F762BE5AD0A4C7C9CBD49ACAD0 /* Pods-LHFRequestDemo.release.xcconfig */,
+			);
+			name = "Pods-LHFRequestDemo";
+			path = "Target Support Files/Pods-LHFRequestDemo";
+			sourceTree = "<group>";
+		};
+		ED9B2F88AD483553A4B0C23EADE15BFE /* TRUNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ADBCB06254E7687DB3C42A753BAF3 /* XHToast.h */,
+				9BB36E02E395FE8B7732EA21D0CDED20 /* XHToast.m */,
+				FF1267AF293FA8F25192A4A741E88A60 /* Pod */,
+				76B61060F1C90AC78D0AB08FB5EC9441 /* Support Files */,
+			);
+			name = TRUNetwork;
+			path = ../Lib/TRUNetwork;
+			sourceTree = "<group>";
+		};
+		FF1267AF293FA8F25192A4A741E88A60 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E77B8C1274AC9450533F2AF156C55B2D /* LICENSE */,
+				329F55B75310A49DC9A80F46D0C5F5A3 /* README.md */,
+				4D074D727A9833008ECE3070E825CACD /* TRUNetwork.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FFE9E63B29F1C19206838CA0BB9429DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD1C2D61E739D125A5DA16ECE81F9D /* TRUNetwork.framework */,
+				0E7ABF32A8CF9A466F4E367DA83AE1E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		891A8760484E12B64C7C7AA64B511C5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79115674B1E7383819DA53A8FD708918 /* Pods-LHFRequestDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28D30D426CBA3703F1CF9C9C07412F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFBFD036A3BEDD7B7973DD9E3BFC79D /* TRULogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB41ABCBE8AC5B42E12DAB1962EE0308 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC51B939F095DD5DEE95498D482E6AF /* TRUNetwork-umbrella.h in Headers */,
+				BA8130C389A07D6639C91A79C0A5AEC0 /* XHToast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		035306FEC43347883CAB1AA795AA326D /* TRULogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A85121D73CAA0E7C24C605A492A293E /* Build configuration list for PBXNativeTarget "TRULogin" */;
+			buildPhases = (
+				C28D30D426CBA3703F1CF9C9C07412F5 /* Headers */,
+				4FCCD0B8988C1703791AF5F61A33EE9A /* Sources */,
+				FA053493E6E5583754DEBDB720A3CEBE /* Frameworks */,
+				46B17CF13014EF7A738A964AD17752CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7BBE5D172D9B925CD2FEB610847E46C /* PBXTargetDependency */,
+			);
+			name = TRULogin;
+			productName = TRULogin;
+			productReference = 55ECDFD01456575DBEC837D89E0891D6 /* TRULogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2ECE113BF8B4B374B9BFE03BBDEEF3C4 /* Pods-LHFRequestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F58F7C67322453242F31FED52F6317 /* Build configuration list for PBXNativeTarget "Pods-LHFRequestDemo" */;
+			buildPhases = (
+				891A8760484E12B64C7C7AA64B511C5E /* Headers */,
+				AFF67D2B2AF59212ACBD64566AEACC58 /* Sources */,
+				469C9E8F0B6EFBC7B7A600BF0C5F7A30 /* Frameworks */,
+				6E2B7EE838E44796CF9163708631E8C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837B8F5BC754EC786084F864DF11161B /* PBXTargetDependency */,
+				93AF706F37453C8CBC7B8B1F01A5F0EE /* PBXTargetDependency */,
+			);
+			name = "Pods-LHFRequestDemo";
+			productName = "Pods-LHFRequestDemo";
+			productReference = C25ACE1EF30D72D2B5393E2374C82B3D /* Pods_LHFRequestDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5986E9994E007CB5C37706D381A5C54 /* TRUNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC5C63D7FA7BA7FC949E33678F31087 /* Build configuration list for PBXNativeTarget "TRUNetwork" */;
+			buildPhases = (
+				FB41ABCBE8AC5B42E12DAB1962EE0308 /* Headers */,
+				6462308C6637A785CF9EF3A1489BED59 /* Sources */,
+				81FFF6959B4243CC4E3832BE0419C369 /* Frameworks */,
+				15859D8F15CB965C159B0E4ED8EB0B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRUNetwork;
+			productName = TRUNetwork;
+			productReference = 5F512F4A7CEC3432B06EEA2B354430AD /* TRUNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 78032B817CC495E9250AE48B43FDBCAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ECE113BF8B4B374B9BFE03BBDEEF3C4 /* Pods-LHFRequestDemo */,
+				035306FEC43347883CAB1AA795AA326D /* TRULogin */,
+				B5986E9994E007CB5C37706D381A5C54 /* TRUNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15859D8F15CB965C159B0E4ED8EB0B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B17CF13014EF7A738A964AD17752CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2B7EE838E44796CF9163708631E8C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FCCD0B8988C1703791AF5F61A33EE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5A9B8608F22FC6099987501FA50101 /* ReplaceMe.m in Sources */,
+				E36E005EAE48073F6EE42F245D21E153 /* TRULogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6462308C6637A785CF9EF3A1489BED59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7763DC1444BF1601AB39923BF8F11B /* TRUNetwork-dummy.m in Sources */,
+				44EC44EF0E930B872DAE482A3E1A5276 /* XHToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF67D2B2AF59212ACBD64566AEACC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6C1CD9ED5ECBF271826FCAC2E4C781 /* Pods-LHFRequestDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		837B8F5BC754EC786084F864DF11161B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRULogin;
+			target = 035306FEC43347883CAB1AA795AA326D /* TRULogin */;
+			targetProxy = 9EECFFF7C74AA325621900FA8E73F5B6 /* PBXContainerItemProxy */;
+		};
+		93AF706F37453C8CBC7B8B1F01A5F0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRUNetwork;
+			target = B5986E9994E007CB5C37706D381A5C54 /* TRUNetwork */;
+			targetProxy = 3F5DDCAF8498D0104A197DC5F03A696C /* PBXContainerItemProxy */;
+		};
+		F7BBE5D172D9B925CD2FEB610847E46C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRUNetwork;
+			target = B5986E9994E007CB5C37706D381A5C54 /* TRUNetwork */;
+			targetProxy = 3039FC1343FEA5A4AE7E1BD2F6E9A822 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F03AE01AF881FC53A0F1582D25DBBE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66478B10E6C1A8CB9F154F958E690C82 /* Pods-LHFRequestDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LHFRequestDemo/Pods-LHFRequestDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LHFRequestDemo/Pods-LHFRequestDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F42873B4ECB5B37A9075692EEF06E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8763BE2513334F2120D3D51859EA86C /* TRULogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRULogin/TRULogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRULogin/TRULogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TRULogin/TRULogin.modulemap";
+				PRODUCT_MODULE_NAME = TRULogin;
+				PRODUCT_NAME = TRULogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		308EA1674D6E503C34DC10F03A281F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7658067433EADE8C4449596525229D /* TRULogin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRULogin/TRULogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRULogin/TRULogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TRULogin/TRULogin.modulemap";
+				PRODUCT_MODULE_NAME = TRULogin;
+				PRODUCT_NAME = TRULogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		392255E8AE56C571D11357CC9119CDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DAEF7A76586B8CEB8AAEC3A45A4BDF7 /* TRUNetwork.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUNetwork/TRUNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRUNetwork/TRUNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TRUNetwork/TRUNetwork.modulemap";
+				PRODUCT_MODULE_NAME = TRUNetwork;
+				PRODUCT_NAME = TRUNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4127591553E81699A2D2FC2AA22EA840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021051EF030A60FB8C1A7D5EC16F4D4F /* TRUNetwork.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUNetwork/TRUNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRUNetwork/TRUNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TRUNetwork/TRUNetwork.modulemap";
+				PRODUCT_MODULE_NAME = TRUNetwork;
+				PRODUCT_NAME = TRUNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D78085E07F25E7CF99CD069AE04A9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0F72F762BE5AD0A4C7C9CBD49ACAD0 /* Pods-LHFRequestDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LHFRequestDemo/Pods-LHFRequestDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LHFRequestDemo/Pods-LHFRequestDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A85121D73CAA0E7C24C605A492A293E /* Build configuration list for PBXNativeTarget "TRULogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F42873B4ECB5B37A9075692EEF06E60 /* Debug */,
+				308EA1674D6E503C34DC10F03A281F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC5C63D7FA7BA7FC949E33678F31087 /* Build configuration list for PBXNativeTarget "TRUNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4127591553E81699A2D2FC2AA22EA840 /* Debug */,
+				392255E8AE56C571D11357CC9119CDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F58F7C67322453242F31FED52F6317 /* Build configuration list for PBXNativeTarget "Pods-LHFRequestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F03AE01AF881FC53A0F1582D25DBBE3 /* Debug */,
+				4D78085E07F25E7CF99CD069AE04A9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

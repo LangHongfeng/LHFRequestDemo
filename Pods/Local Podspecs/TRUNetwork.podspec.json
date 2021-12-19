@@ -1,0 +1,22 @@
+{
+  "name": "TRUNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of TRUNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/57393934@qq.com/TRUNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "57393934@qq.com": "57393934@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/57393934@qq.com/TRUNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TRUNetwork/Classes/**/*"
+}
